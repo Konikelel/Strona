@@ -1,1 +1,1 @@
-# Strona wa ds dad adasd sad
+# Strona
