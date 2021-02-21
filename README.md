@@ -1,1 +1,1 @@
-# Strona
+# Strona jd
