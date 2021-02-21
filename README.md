@@ -1,3 +1,1 @@
-# Strona jd
-eloooooo
-jiwdauyidhbwauydyuaw
+# Strona
