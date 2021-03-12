@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Risque&display=swap');
+
+
+
+nav {
+    height: 100px;
+    background-color: #4D89EF;
+    width: 100%;
+}
+
+nav img {
+    width: 90px;
+    margin-left: 30px;
+    margin-top: 5px;
+
+}
+
+.your-account {
+
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: Roboto;
+    font-size: 30px;
+    top: 0;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 0;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    height: 100px;
+
+}
+
+.your-account i {
+
+    margin-left: 3px;
+
+}
+
+.display-n {
+    display: none;
+}
+
+.activeNav {
+    color: #F9965D;
+    font-weight: bold;
+}
+
+.companyName {
+    text-decoration: none;
+    font-family: Risque;
+    font-size: 48px;
+    color: white;
+    padding-left: 40px;
+    padding-top: 20px;
+    position: absolute;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+}
+
+.navs a {
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 15%;
+    font-size: 30px;
+    font-weight: 500px;
+    top: 50%;
+}
+
+.navs {
+    margin-left: 50%;
+    position: absolute;
+    top: 40px;
+    height: 100px;
+    width: 50%;
+    top: 0;
+    display: flex;
+}
+
+
+
+.menu {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    right: 150px;
+    top: 20px;
+    z-index: 5;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+
+.menu:hover {
+    color: #F9965D;
+    cursor: pointer;
+}
+
+.toggle-menu {
+    animation: showMenu;
+    animation-fill-mode: forwards;
+
+    position: absolute;
+    top: 0;
+    background-color: #4D8AF0;
+    height: 100vh;
+    width: 100%;
+    z-index: 3;
+    text-align: center;
+    animation-duration: 0.5s;
+
+
+}
+
+.toggle-menu a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12vh;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 600;
+    width: 200px;
+    transition-property: all;
+    transition-duration: 0.2s;
+
+}
+
+.toggle-menu a:hover {
+    text-decoration: underline;
+    text-decoration-color: #F9965D;
+    text-underline-offset: 7px;
+    animation: hoverMenuList;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+    color: #3AD29F;
+}
+
+.hidden-menu {
+    animation: hideMenu;
+    animation-fill-mode: forwards;
+    position: absolute;
+    top: 0;
+    background-color: #4D8AF0;
+    height: 100vh;
+    width: 100%;
+    z-index: 3;
+    text-align: center;
+    animation-duration: 0.5s;
+}
+
+.hidden-menu a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12vh;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 600;
+    width: 200px;
+    transition-property: all;
+    transition-duration: 0.2s;
+
+}
+
+
+
+
+@media (max-width:1000px) {
+
+    .menu {
+        color: white;
+        font-size: 40px;
+        position: absolute;
+        right: 50px;
+        top: 20px;
+    }
+}
+
+@media (min-width:1001px) {
+
+    .menu {
+        display: none;
+    }
+
+    .toggle-menu {
+        display: none;
+    }
+
+}
+
+@keyframes showMenu {
+    from {
+        left: 100%;
+    }
+
+    to {
+        left: 0;
+    }
+}
+
+@keyframes hoverMenuList {
+    from {
+        text-decoration-thickness: 1px;
+    }
+
+    to {
+        text-decoration-thickness: 5px;
+
+    }
+}
+
+@keyframes hideMenu {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 100%;
+
+    }
+}

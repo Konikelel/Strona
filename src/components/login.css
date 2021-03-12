@@ -1,0 +1,90 @@
+body {
+    overflow-x: hidden;
+}
+
+
+.PanelLarge {
+    width: 100%;
+
+}
+
+
+
+.PanelSmall {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin-top: 10%;
+
+}
+
+.PanelSmall img {
+    width: 80%;
+
+}
+
+.Tower {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+
+
+
+}
+
+
+
+
+@media (max-width:1000px) {
+
+    .PanelLarge {
+        display: none;
+    }
+
+    .PanelSmall {
+        display: block;
+    }
+
+}
+
+@media (min-width:1001px) and (max-width:1700px) {
+
+    .PanelSmall {
+        display: none;
+    }
+
+    .PanelLarge img {
+        margin-left: 5%;
+        width: 80%;
+        margin-top: 10vh;
+
+    }
+
+
+}
+
+@media (min-width:1701px) {
+
+    .PanelSmall {
+        display: none;
+    }
+
+    .PanelLarge img {
+        margin-left: 5%;
+        width: 1500px;
+        margin-top: 4vh;
+
+    }
+
+    .Tower img {
+        width: 100%;
+        right: 0;
+        z-index: 3;
+
+
+    }
+
+
+}

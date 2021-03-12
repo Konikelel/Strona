@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import loginPage from './components/login';
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter as Router, Route} from "react-router-dom";
+
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Router>
+    <Route path = "/login" component = {loginPage}/>
+  </Router>,
   document.getElementById('root')
 );
 

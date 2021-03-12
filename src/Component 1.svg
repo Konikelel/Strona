@@ -1,0 +1,22 @@
+<svg width="1130" height="649" viewBox="0 0 1130 649" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d)">
+<rect x="4" width="1122" height="641" rx="25" fill="#3AD29F"/>
+<rect x="6.5" y="2.5" width="1117" height="636" rx="22.5" stroke="#C2C2C2" stroke-width="5"/>
+</g>
+<mask id="path-3-inside-1" fill="white">
+<path d="M775.5 0H1101.5C1115.31 0 1126.5 11.1929 1126.5 25V616C1126.5 629.807 1115.31 641 1101.5 641H689L775.5 0Z"/>
+</mask>
+<path d="M775.5 0H1101.5C1115.31 0 1126.5 11.1929 1126.5 25V616C1126.5 629.807 1115.31 641 1101.5 641H689L775.5 0Z" fill="#4D8AF0"/>
+<path d="M775.5 0V-4H772.004L771.536 -0.534933L775.5 0ZM689 641L685.036 640.465L684.424 645H689V641ZM775.5 4H1101.5V-4H775.5V4ZM1122.5 25V616H1130.5V25H1122.5ZM1101.5 637H689V645H1101.5V637ZM692.964 641.535L779.464 0.534933L771.536 -0.534933L685.036 640.465L692.964 641.535ZM1122.5 616C1122.5 627.598 1113.1 637 1101.5 637V645C1117.52 645 1130.5 632.016 1130.5 616H1122.5ZM1101.5 4C1113.1 4 1122.5 13.402 1122.5 25H1130.5C1130.5 8.98375 1117.52 -4 1101.5 -4V4Z" fill="#CACACA" mask="url(#path-3-inside-1)"/>
+<defs>
+<filter id="filter0_d" x="0" y="0" width="1130" height="649" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>
